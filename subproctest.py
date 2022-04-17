@@ -69,7 +69,7 @@ while True:
         cv2.destroyAllWindows()
         break
 pt.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-img_object = Image.open('344.png')
+img_object = Image.open('cropped.png')
 img_text = pt.image_to_string(img_object)
 print("working")
 print(img_text)
@@ -77,13 +77,3 @@ with open(doc, "a") as file_object:
     file_object.write("\n"+img_text)
 
 storage.child(doc).put(doc)
-
-
-
-    
-            
-                
-
-
-
-
