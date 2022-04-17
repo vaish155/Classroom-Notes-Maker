@@ -1,13 +1,13 @@
 ## Classroom-Notes-Maker
 
 # TECH STACK
-Py-Tesseract
-Python imaging Library
-OpenCV
-Firebase
-Android Studio
-Arduino Uno
-Camera
+1. Py-Tesseract
+2. Python imaging Library
+3. OpenCV
+4. Firebase
+5. Android Studio
+6. Arduino Uno
+7. Camera
 
 ![Screenshot (523)](https://user-images.githubusercontent.com/87027522/163719257-8839fcec-8942-439e-994a-511246b1ade0.png)
 
